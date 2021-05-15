@@ -1,0 +1,275 @@
+@charset "UTF-8";
+
+/*Formatação do corpo*/
+
+body{
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*Formatação do menu*/
+
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    background-color: rgba(45, 5, 90, 0.836);
+    list-style: none;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 1340px;
+    
+}
+nav#menu li {
+    display: inline-block;
+    padding: 4px;
+    margin: 2px;
+    margin-left: 25px;
+    transition: background-color 1s;
+    
+}
+nav#menu li:hover{
+    background-color: rgba(175, 172, 172,.5);
+}
+nav#menu a{
+    color: beige;
+    text-decoration: none;
+    font-size: 12pt;
+}
+nav#menu a:hover {
+    color: #ffffff
+}
+
+/*Formatação do título*/
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Formatação das imagens*/
+
+figure#biblioteca{
+    border: 8px solid beige;
+    width: 860px;
+    height: 490px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 4px black;
+}
+figure#biblioteca img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+/*Formatação dos botões*/
+
+#limpar {
+    background-color: rgb(21, 168, 21);
+    border: none;
+    color: white;
+    padding: 7px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 11pt;
+}
+#consultar {
+    background-color: #135aaa;
+    border: none;
+    color: white;
+    padding: 7px;
+    margin-left: -53px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 11pt;
+}
+
+#consultar2 {
+    background-color: #135aaa;
+    border: none;
+    color: white;
+    padding: 7px;
+    margin-left: -77px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 11pt;
+}
+#voltar{
+    background-color: #135aaa;
+    border: none;
+    color: white;
+    padding: 7px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 11pt;
+}
+
+#enviar {
+    background-color: rgb(243, 28, 28);
+    border: none;
+    color: white;
+    padding: 7px;
+    margin-right: 53px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 11pt;
+}
+#limpar:hover {
+    background-color: #606060;
+} 
+#enviar:hover {
+    background-color: #606060;
+} 
+#excluir {
+    background-color: rgb(243, 28, 28);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    font-size: 11pt;
+    width: 55px;
+    height: 20px;
+    margin-right: 5px;
+}
+#alterar {
+    background-color:   rgb(21, 168, 21);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    font-size: 11pt;
+    width: 55px;
+    height: 20px;
+}
+/*Formatação botões da página Livro*/
+
+#limparLivro {
+    background-color: rgb(21, 168, 21);
+    border: none;
+    color: white;
+    padding: 7px;
+    margin-left: 865px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 11pt;
+}
+#enviarLivro {
+    background-color: rgb(243, 28, 28);
+    border: none;
+    color: white;
+    padding: 7px;
+    margin-right: 53px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 11pt;
+}    
+#limparLivro:hover {
+    background-color: #606060;
+} 
+#enviarLivro:hover {
+    background-color: #606060;
+}
+
+/* Formatação da Tabela*/
+
+table.tabela {
+    display: block;
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.tabela2campos {
+    width: 620px;
+    display: block;
+    margin-left: 410px;
+    margin-right: auto;
+}
+
+table.tabela3campos {
+    width: 850px;
+    display: block;
+    margin-left: 350px;
+    margin-right: auto;
+}
+    
+select {
+    width: 191px;
+}
+.campo {
+    margin: 10px;
+    padding: 5px;
+    display: block;
+}
+span.obrigatorio {
+    color: red;
+}
+
+/* Formatação da tabela de registros */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.tabelaListar{
+    text-align: center;
+    border: 1px solid black; 
+    border-collapse: collapse;
+    height: 50vh;
+    width: 200px;
+}
+
+.tabelaListar td{
+    border: 1px solid black;
+    word-wrap: initial;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.tabelaListar th{
+    padding: 3px;
+}
+
+.h1Registros
+{
+    margin-top: 0px;
+    text-align: center;
+}
+.divBotoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.menu a{
+    font-size: 16px;
+}
+
