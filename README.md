@@ -1,5 +1,5 @@
 # Sistema Biblioteca
 
-Um sistema feito para uma **Biblioteca**
+Um sistema de cadastros feito para uma **Biblioteca**
 
 Praticando *markdown*
